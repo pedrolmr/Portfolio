@@ -58,7 +58,7 @@ $(document).ready(function(){
     	}
     });
 
-    $("#navigation li a").click(function(e){
+    $("#navigation li a, .down-arrow").click(function(e){
     	e.preventDefault();
 
     	let targetElement = $(this).attr("href");

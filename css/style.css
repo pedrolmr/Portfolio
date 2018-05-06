@@ -57,6 +57,15 @@
 	height: 100%;
 	background:url("../icons/down-arrow.png") no-repeat;
 	z-index: 5;
+	transition: all .2s;
+}
+.down-arrow:hover{
+	transform: translateY(-5px);
+	
+}
+.down-arrow:active{
+	transform: translateY(-1px);
+	
 }
 
 .section{
