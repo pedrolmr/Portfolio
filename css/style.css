@@ -89,3 +89,11 @@
 	content: "%"
 }
 
+.codepen-project{
+	margin-bottom:2rem;
+}
+
+
+.codepen-project p{
+	border:1px solid #000;
+}
